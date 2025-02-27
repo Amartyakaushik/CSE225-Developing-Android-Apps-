@@ -22,6 +22,7 @@ class RatingBar : AppCompatActivity() {
 
         submitBtn.setOnClickListener {
             progressBar.visibility = View.VISIBLE
+            res.visibility = View.GONE
             lifecycleScope.launch {
                 delay(1500)
                 progressBar.visibility = View.GONE
