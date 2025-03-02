@@ -6,15 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#234F25"
-    tools:context=".CSE225.SplashScreen">
+    tools:context=".splashScreen.SplashScreen">
     <ImageView
         android:id="@+id/img"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginHorizontal="30dp"
         android:contentDescription="App_Logo"
-        android:scaleType="fitEnd"
-        android:padding="0dp"
         android:src="@drawable/ic_online_shopping"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

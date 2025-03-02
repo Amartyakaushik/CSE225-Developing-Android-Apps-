@@ -1,14 +1,10 @@
-package com.example.cse225.CSE225
+package com.example.cse225.splashScreen
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import com.example.cse225.MainActivity
-import com.example.cse225.R
+import com.example.cse225.CSE225.ScrollView
 import com.example.cse225.databinding.ActivitySplashScreenBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
