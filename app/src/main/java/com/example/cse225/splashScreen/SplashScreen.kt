@@ -18,7 +18,7 @@ class SplashScreen : AppCompatActivity() {
 
         lifecycleScope.launch {
             delay(1750)
-            startActivity(Intent(this@SplashScreen, ScrollView::class.java))
+            startActivity(Intent(this@SplashScreen, onBoardingActivity::class.java))
             finish()
         }
     }

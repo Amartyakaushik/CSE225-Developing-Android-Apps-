@@ -87,18 +87,28 @@
 <!--&lt;!&ndash;            app:dotsWidthFactor="2.5" />&ndash;&gt;-->
 
 <!--    </LinearLayout>-->
-<!--    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator-->
-<!--        android:id="@+id/dotsLayout"-->
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time"
+     />
+<!--    <com.rd.PageIndicatorView-->
+<!--        android:id="@+id/pageIndicatorView"-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/time"-->
-<!--     />-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        app:piv_animationType="worm"-->
+<!--        app:piv_count="3"-->
+<!--        app:piv_selectedColor="@color/black"-->
+<!--        app:piv_unselectedColor="@color/gray"/>-->
 
-<!--    <com.rd.PageIndicatorView-->
+
+    <!--    <com.rd.PageIndicatorView-->
 <!--        android:id="@+id/pageIndicatorView"-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
@@ -111,13 +121,18 @@
 <!--        app:layout_constraintTop_toBottomOf="@id/time"-->
 <!--        app:piv_unselectedColor="@color/gray"/>-->
 
-    <com.tbuonomo.dotsindicator.DotsIndicator
-        android:id="@+id/dots_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:dotsSize="16dp"
-        app:dotsSpacing="8dp"
-        app:dotsColor="@color/black"/>
+<!--    <com.tbuonomo.dotsindicator.DotsIndicator-->
+<!--        android:id="@+id/dots_indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:dotsSize="16dp"-->
+<!--        app:dotsSpacing="8dp"-->
+<!--        app:dotsColor="@color/black"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/time"-->
+<!--        />-->
 
 
     <com.google.android.material.button.MaterialButton

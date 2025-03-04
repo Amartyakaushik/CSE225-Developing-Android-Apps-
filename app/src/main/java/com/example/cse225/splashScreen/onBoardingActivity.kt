@@ -1,8 +1,10 @@
 package com.example.cse225.splashScreen
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -16,13 +18,14 @@ class onBoardingActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
     private lateinit var dotsIndicator: WormDotsIndicator
 
+    @RequiresApi(Build.VERSION_CODES.S)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOnBoardingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Initialize ViewPager2 and DotsIndicator
-        viewPager = findViewById(R.id.viewPager)
+//        viewPager = findViewById(R.id.viewPager)
         dotsIndicator = findViewById(R.id.dotsLayout)
 
         // Set an adapter for the ViewPager2
