@@ -25,7 +25,7 @@ class onBoardingActivity3 : AppCompatActivity() {
         val pageNumber = intent.getIntExtra("PAGE_NUMBER", 0)
 
         // Update the dots indicator based on the page number
-        dotsIndicator.setProgress(pageNumber)  // This will highlight the dot corresponding to the page
+//        dotsIndicator.setProgress(pageNumber)  // This will highlight the dot corresponding to the page
 
 
         val nextBtn = binding.buttonNext
