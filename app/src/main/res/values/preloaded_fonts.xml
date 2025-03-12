@@ -5,5 +5,7 @@
         <item>@font/inter_bold</item>
         <item>@font/inter_thin</item>
         <item>@font/inter_tight_thin</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
     </array>
 </resources>
