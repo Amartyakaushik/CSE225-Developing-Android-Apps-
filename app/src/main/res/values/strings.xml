@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSE225</string>
+    <string name="LogIndesc">
+        <font fgcolor="#1F41BB">LogIn Here \n</font>
+        <font fgcolor="#00000">Welcome back</font>
+    </string>
+</resources>
