@@ -21,8 +21,6 @@ class LogInScreen2 : AppCompatActivity() {
         }
     }
 
-
-
     private fun showAlertDialog(title: String, message: String) {
         AlertDialog.Builder(this)
             .setTitle(title)
