@@ -137,6 +137,7 @@
                 android:layout_marginHorizontal="28dp"
                 android:paddingHorizontal="10dp"
                 android:layout_marginTop="40dp"
+                android:textSize="13dp"
                 android:background="@drawable/custom_btn_bkg"
                 android:drawableStart="@drawable/ic_gg"
                 android:fontFamily="@font/poppins_semibold"
