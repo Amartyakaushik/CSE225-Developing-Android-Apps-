@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/main"
-    tools:context=".ui.services.ServicesFragment">
+    android:id="@+id/main">
 
-    <include layout="@layout/waiting_layout"
-        android:id="@+id/waiting_layout"/>
+<!--    <include layout="@layout/waiting_layout"-->
+<!--        android:id="@+id/waiting_layout"/>-->
 
-    <include layout="@layout/no_internet_layout"
-        android:id="@+id/no_internet_layout"/>
+<!--    <include layout="@layout/no_internet_layout"-->
+<!--        android:id="@+id/no_internet_layout"/>-->
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/category_details_scrollview"
@@ -47,7 +46,6 @@
 
     <include
         android:id="@+id/floating_cart_layout"
-        layout="@layout/floating_cart"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
