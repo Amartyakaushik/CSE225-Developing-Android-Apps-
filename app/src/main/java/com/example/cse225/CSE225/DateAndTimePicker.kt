@@ -35,7 +35,6 @@ class DateAndTimePicker : AppCompatActivity() {
 
     }
 
-
     private fun pickDate() {
         val calendar = Calendar.getInstance()
         val year = calendar.get(Calendar.YEAR)
