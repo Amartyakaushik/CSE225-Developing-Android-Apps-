@@ -14,7 +14,8 @@ class DateAndTimePicker : AppCompatActivity() {
     private val myBirthday = Calendar.getInstance().apply { set(2004, Calendar.NOVEMBER, 1) }
     private val classSchedule = listOf(
         Calendar.getInstance().apply { set(2025, Calendar.APRIL, 3,12, 0) },
-        Calendar.getInstance().apply { set(2025, Calendar.APRIL, 10, 10, 30) }
+        Calendar.getInstance().apply { set(2025, Calendar.APRIL, 10, 10, 30) },
+        Calendar.getInstance().apply { set(2025, Calendar.MAY, 10, 10, 30) }
     )
 
     private var selectedDate: Calendar = Calendar.getInstance()
