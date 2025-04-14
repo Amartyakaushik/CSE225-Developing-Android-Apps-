@@ -30,4 +30,3 @@ class LogInScreen2 : AppCompatActivity() {
             .show()
     }
 }
-
