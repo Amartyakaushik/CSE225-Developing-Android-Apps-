@@ -9,9 +9,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.cse225.Manifest
+//import com.example.cse225.Manifest
 import com.example.cse225.R
-import
+//import
 import com.example.cse225.databinding.ActivityExternalStorageBinding
 import java.io.File
 import java.io.FileNotFoundException
@@ -27,7 +27,7 @@ class ExternalStorage : AppCompatActivity() {
     private var filename = "SampleFile.txt"
     private var filePath = "MyFileStorage"
     lateinit var myExternalFile : File
-    var mPermission = arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE)
+//    var mPermission = arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
