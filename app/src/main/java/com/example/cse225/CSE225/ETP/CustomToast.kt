@@ -1,4 +1,4 @@
-package com.example.cse225.CSE225
+package com.example.cse225.CSE225.ETP
 
 import android.os.Bundle
 import android.view.View
@@ -6,8 +6,6 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.cse225.R
 import es.dmoral.toasty.Toasty
 

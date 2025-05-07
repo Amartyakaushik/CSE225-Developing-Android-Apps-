@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CSE225.AlarmManager">
+    tools:context=".CSE225.ETP.AlarmManager">
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

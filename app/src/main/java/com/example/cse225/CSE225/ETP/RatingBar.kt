@@ -1,4 +1,4 @@
-package com.example.cse225.CSE225
+package com.example.cse225.CSE225.ETP
 
 import android.os.Bundle
 import android.view.View

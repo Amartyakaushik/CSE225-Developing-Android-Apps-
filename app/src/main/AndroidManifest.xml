@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SET_ALARM" />
 
+    <receiver android:name=".AlarmReceiver" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -23,10 +25,19 @@
         android:theme="@style/Theme.CSE225"
         tools:targetApi="31">
         <activity
-            android:name=".CSE225.AlarmManager"
+            android:name=".ETP_exam"
             android:exported="false" />
         <activity
-            android:name=".CSE225.CustomToast"
+            android:name=".CSE225.ETP.SwipeTabs"
+            android:exported="false" />
+        <activity
+            android:name=".CSE225.ETP.JobScheduler"
+            android:exported="false" />
+        <activity
+            android:name=".CSE225.ETP.AlarmManager"
+            android:exported="false" />
+        <activity
+            android:name=".CSE225.ETP.CustomToast"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,17 +46,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CSE225.ETP"
+            android:name=".CSE225.ETP.ETP"
             android:exported="false" />
         <activity
-            android:name=".CSE225.ProgressBar"
+            android:name=".CSE225.ETP.ProgressBar"
             android:exported="false" />
         <activity
             android:name=".CSE225.storage.ExternalStorage"
             android:exported="false" />
         <activity
             android:name=".Recoupe.unit1"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".CSE225.DateAndTimePicker"
             android:exported="true" />
@@ -80,7 +91,7 @@
             android:name=".splashScreen.SplashScreen"
             android:exported="true" />
         <activity
-            android:name=".CSE225.RatingBar"
+            android:name=".CSE225.ETP.RatingBar"
             android:exported="true" />
         <activity
             android:name=".CSE225.ToolBar"
